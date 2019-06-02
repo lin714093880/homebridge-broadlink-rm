@@ -366,7 +366,7 @@ class AirConAccessory extends BroadlinkRMAccessory {
 
     temperature += temperatureAdjustment
 
-    state.currentTemperature = sharedTemp = temperature;
+    state.currentTemperature = sharedTemperature = temperature;
 
     log(`${name} onTemperature (${temperature})`);
 
